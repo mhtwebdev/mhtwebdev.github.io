@@ -123,6 +123,10 @@ span.big {
   max-width: 100%;
 }
 
+.image_card #speaker {
+  padding: 0;
+}
+
 .card6 {
   position: relative;
 }
