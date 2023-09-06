@@ -67,7 +67,8 @@ span.big {
   justify-content: center;
   height: 100vh;
   max-height: 100vh;
-  padding: 0 1.5rem 0 1.5rem;
+  max-width: 100%;
+  padding: 1.5rem 0 1.5rem 0;
   text-align: center;
 }
 
@@ -118,12 +119,8 @@ span.big {
   font-weight: 300;
 }
 
-.image_card #speaker {
-  max-width: 100%;
-}
-
 .image_card img {
-  max-width: 80%;
+  max-width: 100%;
 }
 
 .card6 {
@@ -182,7 +179,7 @@ span.big {
   margin: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .slide {
     padding: 0 1.5rem 0 1.5rem;
   }
