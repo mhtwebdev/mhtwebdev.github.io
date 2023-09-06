@@ -208,3 +208,13 @@ span.big {
     max-width: 50%;
   }
 }
+
+@media screen and (max-height: 850px) {
+  .slide h2 {
+    font-size: 1.4em;
+  }
+  
+  .image_card > img {
+    max-height: 50vh;
+  }
+}
